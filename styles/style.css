@@ -1,12 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #FFFFFF;
+    width: 100%;
+    min-height: 100vh;
 }
 
 /* header part css */
 header {
     border-radius: 1.5em;
     background-color: #161616;
+    margin: 2.2em 5em;
 
 }
 
@@ -55,4 +64,53 @@ header {
     padding-top: 2em;
 }
 
-/* main part css start  */
+/*-----------------
+ main part css start
+---------------- */
+/* aside part css start  */
+aside {
+    height: 16em;
+    width: 16em;
+    background-color: #161616;
+    border-radius: 0.7em;
+    margin-left: 5em;
+}
+
+.side-bar-buttons a {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #161616;
+}
+
+.side-bar-buttons {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    row-gap: 2em;
+    padding-top: 1em;
+
+}
+
+.side-bar-buttons button {
+    width: 14em;
+    height: 4em;
+    border: none;
+    border-radius: 0.5em;
+    background-color: #FFFFFF;
+
+
+}
+
+.side-bar-buttons button:hover {
+    border: none;
+    box-shadow: 0 8em 10em 0 rgba(255, 6, 6, 0.307), 0 1em 5em 0 rgba(246, 101, 101, 0.559);
+    background-color: #DD0000;
+
+}
+
+.side-bar-buttons button:hover a {
+    color: #FFFFFF;
+}
+
+/* aside part css complete */
