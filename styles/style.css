@@ -1,0 +1,44 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+}
+
+/* header part css */
+header {
+    border-radius: 1.5em;
+    background-color: #161616;
+
+}
+
+.top-banner {
+    color: #FFFFFF;
+    display: flex;
+}
+
+.banner-heading {
+    font-size: 2.5em;
+}
+
+
+
+.btn-banner a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 400;
+}
+
+.btn-banner {
+    width: 13em;
+    height: 4em;
+    border: none;
+    background: #DD0000;
+    border-radius: 0.5em;
+    padding: .5em 2em;
+}
+
+.btn-banner:hover {
+    border: none;
+    box-shadow: 0 8em 10em 0 rgba(255, 6, 6, 0.307), 0 1em 5em 0 rgba(246, 101, 101, 0.559);
+}
