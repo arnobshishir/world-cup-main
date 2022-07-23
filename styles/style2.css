@@ -1,8 +1,12 @@
+/* Google-Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -18,9 +22,11 @@ header {
     background-color: #161616;
     margin: 2.2em 8.75em;
 
+
 }
 
 .top-banner {
+
     color: #FFFFFF;
     display: flex;
 
@@ -215,3 +221,47 @@ footer hr {
     padding: 1em;
 
 }
+
+/*--------------
+ media queries here
+ ------------- */
+/* for small mobile devices  */
+@media only screen and (max-width: 576px) {
+    body {
+        align-items: center;
+    }
+
+    header {
+        width: 100vh;
+    }
+
+    .top-banner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner-text {
+        padding-right: 4em;
+    }
+
+    /* main part  */
+    main {
+        width: 100vh;
+        flex-direction: column;
+    }
+
+    .match-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 2.2em;
+        margin-left: 8.8em;
+    }
+
+    .bottom-part {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+}
+
+/* for medium tablet devices */
+@media only screen and (max-width:577px) and (min-width:992px) {}

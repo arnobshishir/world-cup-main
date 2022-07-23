@@ -1,3 +1,6 @@
+/* Google-Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -227,3 +230,44 @@ footer hr {
     padding: 1em;
 
 }
+
+/*--------------
+ media queries here
+ ------------- */
+/* for small mobile devices  */
+@media only screen and (max-width: 576px) {
+    body {
+        align-items: center;
+        width: 100vh;
+    }
+
+    header {
+        width: 100vh;
+    }
+
+
+    .top-banner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner-text {
+        padding-right: 4em;
+    }
+
+    main {
+        width: 100vh;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news-container {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 1.5em;
+        align-items: center;
+        padding-top: 1.5em;
+    }
+}
+
+/* for medium tablet devices */
+@media only screen and (max-width:577px) and (min-width:992px) {}
