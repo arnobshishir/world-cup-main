@@ -59,17 +59,18 @@ header {
 
 }
 
-.btn-banner:hover {
+.btn-banner::after {
     border: none;
     box-shadow: 0 8em 10em 0 rgba(255, 6, 6, 0.307), 0 1em 5em 0 rgba(246, 101, 101, 0.559);
     transition-duration: 0.5s;
 }
 
+/* 
 .banner-img img {
     height: 30em;
     padding-right: 3.5em;
-    padding-top: 2em;
-}
+    padding-top: 5em;
+} */
 
 /*-----------------
  main part css start
@@ -80,7 +81,7 @@ main {
     margin-bottom: 8.125em;
 }
 
-.news-container {
+.match-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-around;
@@ -89,8 +90,8 @@ main {
 
 /* aside part css start  */
 .side-bars {
-    height: 19em;
-    width: 19em;
+    height: 19.5em;
+    width: 19.5em;
     background-color: #161616;
     border-radius: 0.7em;
     margin-left: 8.75em;
@@ -137,11 +138,12 @@ main {
 
 /* aside part css complete */
 /* -----------------
-Transfer part start 
+Match-schedule part start 
 -------------------- */
-section .news {
+.match-schedule {
     width: 19.5em;
-    height: 22.625em;
+    height: 15.125em;
+    text-align: center;
     border: none;
     padding-bottom: 8px;
     box-shadow: 4px 10px 8px 10px whitesmoke;
@@ -167,30 +169,21 @@ section .news {
     padding: 1.25em;
 }
 
-.transfer-news h3 {
+.match-time h3 {
+    padding-top: 1.12em;
+    font-size: 1.125em;
+}
+
+.match-time p {
     padding-top: 0.9em;
-    font-size: 1.1em;
+    font-size: 1em;
+    color: #4D4D4D;
 }
 
-.fa-clock,
-.fa-message {
-    padding-top: 0.9em;
-    padding-right: 2em;
-    font-size: 1.1em;
-    color: rgba(22, 22, 22, 0.7);
-}
-
-.fa-message span {
-    padding-left: 1em;
-}
-
-.fa-clock span {
-    padding-left: 1em;
-}
 
 /* ----------------
 footer part CSS start
---------------------  */
+ --------------------  */
 footer {
     background-color: #161616;
     text-align: center;
