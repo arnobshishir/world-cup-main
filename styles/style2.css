@@ -59,18 +59,18 @@ header {
 
 }
 
-.btn-banner::after {
+.btn-banner:hover {
     border: none;
     box-shadow: 0 8em 10em 0 rgba(255, 6, 6, 0.307), 0 1em 5em 0 rgba(246, 101, 101, 0.559);
     transition-duration: 0.5s;
 }
 
-/* 
+
 .banner-img img {
     height: 30em;
-    padding-right: 3.5em;
-    padding-top: 5em;
-} */
+    padding-right: 2.5em;
+
+}
 
 /*-----------------
  main part css start
@@ -144,33 +144,28 @@ Match-schedule part start
     width: 19.5em;
     height: 15.125em;
     text-align: center;
-    border: none;
+    border: 1px solid #4d4d4d5b;
+    border-radius: 0.7em;
     padding-bottom: 8px;
     box-shadow: 4px 10px 8px 10px whitesmoke;
 }
 
-.transfer-btn a {
-    text-decoration: none;
-    color: #161616;
-    font-size: 1rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.teams {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 3.3em;
+    padding-left: 1.7em;
+    padding-right: 1.7em;
+    justify-content: space-around;
 }
 
-.transfer-btn {
-    width: 6.25em;
-    height: 2em;
-    background-color: #FFFFFF;
-    border: 0.1em solid;
-    border-radius: 0.25rem;
-
-}
-
-.transfer-news {
-    padding: 1.25em;
+.teams span {
+    padding-top: 1em;
+    font-weight: 700;
 }
 
 .match-time h3 {
-    padding-top: 1.12em;
+    padding-top: 1.2em;
     font-size: 1.125em;
 }
 
