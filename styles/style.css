@@ -77,6 +77,7 @@ header {
 main {
     display: flex;
     margin-right: 8.75em;
+    margin-bottom: 8.125em;
 }
 
 .news-container {
@@ -185,4 +186,44 @@ section .news {
 
 .fa-clock span {
     padding-left: 1em;
+}
+
+/* ----------------
+footer part CSS start
+--------------------  */
+footer {
+    background-color: #161616;
+    text-align: center;
+
+}
+
+footer h2 {
+    color: #FFFFFF;
+    padding-top: 4em;
+    padding-bottom: 3em;
+}
+
+footer hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 82.5em;
+    margin: auto;
+}
+
+.bottom-part {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: space-evenly;
+    margin: 3.25em 22em 3em 22em;
+}
+
+.bottom-part a {
+    text-decoration: none;
+    color: #B9B9B9;
+
+}
+
+.social-icon {
+    color: #B9B9B9;
+    padding: 1em;
+
 }
